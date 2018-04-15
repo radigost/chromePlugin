@@ -1,0 +1,21 @@
+{
+  "name": "company_checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --mode production",
+    "dev":"webpack --watch --mode production "
+  },
+  "author": "Nickolay Polyakov",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
